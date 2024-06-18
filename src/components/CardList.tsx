@@ -95,8 +95,7 @@ const CardList: React.FC = () => {
         <div
           id="searchInputText"
           className="w-full text-center my-4"
-          dangerouslySetInnerHTML={{ __html: searchTerm }}
-        ></div>
+        >{searchTerm}</div>
       </div>
 
       <div className="flex flex-wrap justify-center">
