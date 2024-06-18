@@ -14,7 +14,7 @@ const { Meta } = AntdCard;
 
 const Card: React.FC<CardProps> = ({ image, title, description, demoLink, repoLink }) => {
   const handleClick = () => {
-    alert(`You clicked on ${title}`);
+    console.log(`You clicked on ${title}`);
   };
 
   return (
