@@ -101,7 +101,7 @@ const CardList: React.FC = () => {
       <div className="flex flex-wrap justify-center">
         {cards.map((card, index) => (
           <Card
-            key={index}
+            key={card.id}
             image={card.image}
             title={card.title}
             description={card.description}
